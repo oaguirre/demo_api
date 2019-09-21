@@ -2,6 +2,7 @@
 Demo API
 
 # Installation
+```
 sudo apt update
 sudo apt install nodejs
 sudo apt install mongo
@@ -18,5 +19,5 @@ pm2 save
 sudo service mongodb start
 pm2 startup
 sudo env PATH=$PATH:/usr/bin /usr/local/lib/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
-   
+```   
 
